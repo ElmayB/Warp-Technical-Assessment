@@ -77,15 +77,4 @@ function parseLogEntries(logContent: string): Array<{ timestamp: Date, event: st
 }
 
 // Export functions for use in other modules
-export { analyzeLogPatterns, parseLogEntries };
-
-/**
- * Example usage:
- * 
- * import { analyzeLogPatterns } from './logAnalyzer';
- * import * as fs from 'fs';
- * 
- * const logContent = fs.readFileSync('application.log', 'utf8');
- * const patterns = analyzeLogPatterns(logContent, 5000, 3); // 5 second window, minimum 3 events
- * console.log(patterns);
- */ 
+export { analyzeLogPatterns, parseLogEntries }; 

@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:log": "jest logAnalyzer.test.ts",
+    "test:api": "jest api.test.ts"
   },
   "keywords": [],
   "author": "",
